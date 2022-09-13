@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Semana02UESANEntityFrameworkCore.CodeFirst.Models;
 
@@ -10,9 +11,10 @@ using Semana02UESANEntityFrameworkCore.CodeFirst.Models;
 namespace Semana02UESANEntityFrameworkCore.CodeFirst.Migrations
 {
     [DbContext(typeof(MundialQatar2022DbContext))]
-    partial class MundialQatar2022DbContextModelSnapshot : ModelSnapshot
+    [Migration("20220910123432_Agrego el campo Active")]
+    partial class AgregoelcampoActive
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
