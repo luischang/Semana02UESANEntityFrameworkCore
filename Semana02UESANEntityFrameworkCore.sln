@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana02UESANEntityFrameworkCore.CodeFirst", "Semana02UESANEntityFrameworkCore.CodeFirst\Semana02UESANEntityFrameworkCore.CodeFirst.csproj", "{4BA317C7-82C3-4472-8B2C-DF0C109D050A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semana02UESANEntityFrameworkCore.CodeFirst", "Semana02UESANEntityFrameworkCore.CodeFirst\Semana02UESANEntityFrameworkCore.CodeFirst.csproj", "{4BA317C7-82C3-4472-8B2C-DF0C109D050A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana04UESANEntityFrameworkCore.DatabaseFirst", "Semana04UESANEntityFrameworkCore.DatabaseFirst\Semana04UESANEntityFrameworkCore.DatabaseFirst.csproj", "{54C63B17-046B-4F2D-B05F-E56B77D8A14F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4BA317C7-82C3-4472-8B2C-DF0C109D050A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA317C7-82C3-4472-8B2C-DF0C109D050A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA317C7-82C3-4472-8B2C-DF0C109D050A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C63B17-046B-4F2D-B05F-E56B77D8A14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C63B17-046B-4F2D-B05F-E56B77D8A14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C63B17-046B-4F2D-B05F-E56B77D8A14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C63B17-046B-4F2D-B05F-E56B77D8A14F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
