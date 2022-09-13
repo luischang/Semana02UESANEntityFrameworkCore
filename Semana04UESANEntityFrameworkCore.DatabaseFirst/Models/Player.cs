@@ -9,5 +9,6 @@ namespace Semana04UESANEntityFrameworkCore.DatabaseFirst.Models
         public string FullName { get; set; } = null!;
         public int Dorsal { get; set; }
         public bool Active { get; set; }
+        public string Country { get; set; }
     }
 }
